@@ -59,7 +59,8 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 
 # Observations
 1. Checking data type and name of each column in the dataset
-
-2. The table below shows each column NULL values and provides the counts of NULL values and total row counts for each column in dataset
+   ![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Column%20Names%20and%20Data%20Types.png)
+   
+3. The table below shows each column NULL values and provides the counts of NULL values and total row counts for each column in dataset
 
 
