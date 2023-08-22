@@ -59,8 +59,42 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 
 # Observations
 1. Checking data type and name of each column in the dataset
-   ![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Column%20Names%20and%20Data%20Types.png)
-   
-3. The table below shows each column NULL values and provides the counts of NULL values and total row counts for each column in dataset
 
+![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Column%20Names%20and%20Data%20Types.png)
+   
+2. The table below shows total number of rows and number of null values in all columns
+
+![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Number%20of%20NULLs.png)
+
+3. To further inspect my data I've used ride_id, since it had no NULL values. First check showed that there are no DUPLICATE rows in the dataset. Also, all ride_id values were same lenght, so there was nothing to clean.
+4. There are 3 unique types of bikes in our dataset.
+
+![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Ride%20types.png)
+
+5. There are 2 unique subscription types in our dataset.
+
+![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Subscription%20types.png)
+
+6. Total of 868772 rows have both start_station_name and start_station_id as NULL values.
+7. Total of 925008 rows have both end_station_name and end_station_id as NULL values.
+8. Total of 6102 rows have both end_lat and end_lng as NULL values.
+9. The started_at and ended_at timestamp structure shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format.
+10. New column ride_length was created to find the total trip duration. There are 157013 trips which has duration longer than a day OR trips that are less than a minute duration.
+
+### Data Cleaning
+
+SQL Query:[Data Cleaning](LINK)
+
+1. Rows that have NULL values were removed from the data.
+2. Column with ride_lenght added.
+3. Trips that are unusually short (less than 1 minute) or very long (more than a day) were removed during my analysis. Such trips might represent outliers or data entry errors that could distort the results of analysis.
+4. Columns start_station_id and end_station_id removed from the table, because they are not relevant for current analysis.
+
+### Analyze
+
+SQL Query:[Data Analysis](LINK)
+
+### Share
+
+SQL Query:[Data Analysis](LINK)
 
