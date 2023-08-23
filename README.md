@@ -50,10 +50,12 @@ A Microsoft Excel worksheet can only handle up to 1,048,576 rows, which means it
 
 ### Combining 12-month data
 SQL Query: [Data Concatenation](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Concatenation.sql)
+
 12 csv files are uploaded as tables in the dataset '2223_tripdata'. Another table named "2223_tripdata_combined" is created, containing 5723606 rows of data for the entire year.
 
 ## Data Exploration
 SQL Query: [Data Exploration](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Exploration.sql)
+
 Before cleaning the data, I familiarize myself with the dataset and look for inconsistencies.
 
 ### Observations
