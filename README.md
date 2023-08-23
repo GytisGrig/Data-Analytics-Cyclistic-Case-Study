@@ -7,11 +7,11 @@ In this case study, I will perform real-world tasks of a data analyst at a ficti
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)[accessed on 21/08/23]
 
 SQL Queries:
-01. Data Combining CREATE LINK LATER
-02. Data Exploration CREATE LINK LATER
-03. Data Cleaning CREATE LINK LATER
+01. [Data Concatenation](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Concatenation.sql)
+02. [Data Exploration](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Exploration.sql)
+03. [Data Cleaning](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
 04. [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
-05. Data Visualizations: Tableau CREATE LINK LATER
+05. Data Visualizations
 
 # Project Information
 ### About the Company
@@ -49,11 +49,11 @@ BigQuery is used to combine 12-month data into one dataset and process it.
 A Microsoft Excel worksheet can only handle up to 1,048,576 rows, which means it's not suitable for handling large amounts of data. Since the Cyclistic dataset contains over 5.6 million rows, it's important to use a platform like BigQuery, which is designed to handle massive amounts of data.
 
 ### Combining 12-month data
-SQL Query: [Data Concatenation](ADD LINK)
+SQL Query: [Data Concatenation](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Concatenation.sql)
 12 csv files are uploaded as tables in the dataset '2223_tripdata'. Another table named "2223_tripdata_combined" is created, containing 5723606 rows of data for the entire year.
 
 ## Data Exploration
-SQL Query: Data Exploration
+SQL Query: [Data Exploration](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Exploration.sql)
 Before cleaning the data, I familiarize myself with the dataset and look for inconsistencies.
 
 ### Observations
@@ -82,7 +82,7 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 
 ## Data Cleaning
 
-SQL Query: [Data Cleaning](LINK)
+SQL Query: [Data Cleaning](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
 
 1. Rows that have NULL values were removed from the data.
 2. Column with ride_lenght added.
@@ -95,5 +95,5 @@ SQL Query: [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic
 
 # Share
 
-SQL Query: [Data Analysis](LINK)
+SQL Query: [Data Visualizations](LINK)
 
