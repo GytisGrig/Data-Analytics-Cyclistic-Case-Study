@@ -10,7 +10,7 @@ SQL Queries:
 01. Data Combining CREATE LINK LATER
 02. Data Exploration CREATE LINK LATER
 03. Data Cleaning CREATE LINK LATER
-04. Data Analysis CREATE LINK LATER
+04. [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
 05. Data Visualizations: Tableau CREATE LINK LATER
 
 # Project Information
@@ -91,7 +91,7 @@ SQL Query: [Data Cleaning](LINK)
 
 # Analyze
 
-SQL Query: [Data Analysis](LINK)
+SQL Query: [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
 
 # Share
 
