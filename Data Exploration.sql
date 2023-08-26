@@ -155,3 +155,9 @@ SELECT COUNT(*)
 FROM `capstone-396608.2223_tripdata.2223_tripdata_combined`
 WHERE TIMESTAMP_DIFF(ended_at, started_at, SECOND) < 60
   OR TIMESTAMP_DIFF(ended_at, started_at, SECOND) > 86400;
+
+-- Check for negative values 
+
+SELECT *
+FROM `capstone-396608.2223_tripdata.2223_tripdata_cleaned`
+WHERE ride_month_num < 0;
