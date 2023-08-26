@@ -1,7 +1,7 @@
 # Data-Analytics-Cyclistic-Case-Study
 
 # Introduction
-In this case study, I will perform real-world tasks of a data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](), Prepare, Process, Analyze, Share, and Act.
+In this case study, I will perform real-world tasks of a data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Ask), [Prepare](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Prepare), [Process](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Process), [Analyze](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Analyze), [Share](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Share), and [Act](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#Act).
 
 ## Quick Links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)[accessed on 21/08/23]
