@@ -102,6 +102,29 @@ To analy
 
 SQL Query: [Data Visualizations](https://public.tableau.com/app/profile/gytis.grigeliunas/viz/UserEngagement_16930401155740/UserAndBikeTypes#1)
 
+
+
+![User And Bike Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/a986a07d-9e7b-4c69-a722-8fd92f09f74a)
+
+
+
+
+
+
+![Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/e5e11094-5814-431b-84b5-d8926d482982)
+
+
+
+![Avg Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/7d0e9575-886a-42e9-a732-f2cc18429370)
+
+
+
+![User Start Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/0676ce60-ac35-4ff8-8f67-dbd0bd412e84)
+
+
+![User End Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/bd6eefff-6ff6-416a-9c7b-8f5210f90ca2)
+
+
 # Act
 
 After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
