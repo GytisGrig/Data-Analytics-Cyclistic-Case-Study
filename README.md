@@ -1,7 +1,7 @@
 # Data-Analytics-Cyclistic-Case-Study
 
 # Introduction
-In this case study, I will perform real-world tasks of a data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+In this case study, I will perform real-world tasks of a data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/edit/main/README#Ask.md), Prepare, Process, Analyze, Share, and Act.
 
 ## Quick Links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)[accessed on 21/08/23]
@@ -98,41 +98,82 @@ SQL Query: [Data Cleaning](https://github.com/GytisGrig/Data-Analytics-Cyclistic
 
 SQL Query: [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
 
-To analy
+Multiple queries were run and tables created for data analysis to help and answer analysis questions "How do annual members and casual riders use Cyclistic bikes differently?", breakdown of analysis is as follows:
+
+1. Examined the distribution of rideable types (bike types) among member and casual riders. It counts the number of rides for each combination of rideable type and user type.
+2. Analyzed the ride frequency over different months, broken down by member and casual riders. It provides insight into how riding patterns vary throughout the year for both user types.
+3. Compared the total number of trips taken by member and casual riders on weekdays and weekends. It helps identify if there are differences in riding habits based on the day of the week.
+4. Investigated the distribution of rides throughout the day, categorized by the hour of the day and user type. It highlights peak hours of usage for both member and casual riders.
+5. Calculated the average ride duration for different time intervals (month, weekday, and hour) for both member and casual riders. This analysis provides insights into the typical ride lengths at different times.
+6. Start station location query provides the average latitude and longitude of start stations, along with the total number of rides for each combination of start station and user type. It gives insights into the geographical distribution of rides.
+7. Similar to the previous query, this one focuses on the location analysis of end stations. It provides information about the average latitude and longitude of end stations and the total number of rides for each combination of end station and user type.
+
+These queries collectively provide a comprehensive analysis of the data, helping understand user behavior, preferences, and trends. The findings from these queries will guide decision-making process when crafting strategies to convert casual riders into annual members.
 
 # Share
 
 SQL Query: [Data Visualizations](https://public.tableau.com/app/profile/gytis.grigeliunas/viz/UserEngagement_16930401155740/UserAndBikeTypes#1)
 
 
+This visualization showcases the distribution of rideable types (bike types) among Cyclistic users. By categorizing the rides into member and casual riders, it offers an insightful perspective on the bike preferences of different user segments.
 
 ![User And Bike Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/a986a07d-9e7b-4c69-a722-8fd92f09f74a)
 
+The visualization highlights distribution in user rides, with 63% of rides completed by loyal members and 37% by casual riders. Classic and Electric bike types emerge as the favored choices, with Docked bikes only being used by casual riders.
 
-
-
-
+Following visualization presents trends of ride activity throughout the year. We can see how the number of trips varies across months, days of the week, and hours of the day, broken down by user type. This allows to pinpoint when the bike-share service experiences peak demand and when user engagement is higher for members versus casual riders.
 
 ![Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/e5e11094-5814-431b-84b5-d8926d482982)
 
+Analyzing **monthly** trip patterns reveals a trend in behavior between casual and member riders. Both groups complete higher trip counts during spring and summer, aligning with favorable weather conditions.
 
+Comparing **days of the week**, a distinct usage pattern emerges. Casual riders tend to favor weekends, with increased journeys, while member riders show reduced activity over the weekend compared to other weekdays.
+
+Examining the **hourly** trip distribution for members reveals two distinct peaks. The first occurs during the early morning hours, around 7 am to 8 am, indicating likely usage for commutes. The second peak emerges in the late afternoon, from 4 pm to 6 pm. In contrast, casual riders show consistent increase in trips throughout the day until peaking around 5 pm, followed by a decline.
+
+Members' ride patterns align with workweek commutes, evident from dual peaks during early mornings and late afternoons on weekdays. In contrast, casual riders exhibit a leisure-oriented approach, maintaining consistent daytime activity that peaks on weekends. Notably, both user types show higher participation during the summer and spring seasons, underlining the significance of favorable weather conditions.
+
+To move further with analysis, this visualization complements the previous one by illustrating the average number of trips rather than raw counts. By focusing on averages, one can identify consistent patterns and trends.
 
 ![Avg Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/7d0e9575-886a-42e9-a732-f2cc18429370)
 
+**Monthly** data highlights that casual riders consistently have longer average journey durations compared to members. Casual riders journey length incereases during the summer months, while members maintain consistent average journey durations year-round.
 
+Analyzing **weekly** data shows that member average journey times remain consistent. However, journey lengths increase over the weekends among casual riders.
+
+**Hourly** data confirms the stability of member average journey times across the day. Casual rider journey lengths rising during midday hours. 
+
+These findings lead to the conclusion that Casual riders take longer trips on weekends and midday hours, favoring leisure. Members maintain steady journey times for regular use.
+
+To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. With this visualization, we gain insights into where both member and casual riders typically begin their trips. By showcasing the most popular start stations for each user type, decisions can be made towards tailored marketing efforts to promote membership at these stations or strategically expand stations based on demand.
 
 ![User Start Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/0676ce60-ac35-4ff8-8f67-dbd0bd412e84)
 
+Casual Riders start trips in central, scenic locations like parks and coastlines, highlightin leisure activities. Member Riders start trips near train stations, universities, and residential areas, highlighting commuting and routine travel.
+
+Similar to the previous visualization, this one sheds light on the preferred end stations for Cyclistic users. It provides valuable information about the destinations of both member and casual riders, helping identify potential opportunities for location-specific campaigns.
 
 ![User End Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/bd6eefff-6ff6-416a-9c7b-8f5210f90ca2)
 
+Similar trends can be observed when looking at end stations. Casual riders tend to end their journeys near parks and coastlines, while member riders often end their trips near universities, residential areas, and train stations.
+
+### Summary:
+
+1. Member riders constitute 63% of total rides, showcasing strong loyalty to Cyclistic.
+2. Both member and casual riders prefer spring and summer for increased ride activity.
+3. Members travel more often, but Casual riders travel longer.
+4. Casual riders show patterns favoring leisure, weekend-oriented usage, journey lengths increase on weekends and during midday hours.
+5. Member riders show patterns favoring commute, journey times remain consistent across the year and have two usage peaks: early mornings and late afternoons on weekdays.
+6. Start and End station preferences differ: casual riders favor central and scenic spots, while members choose areas near transit and education hubs.
 
 # Act
 
-After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
-Recommendations:
+After analyzing differences between casual and member riders, these are actionable strategies that can encourage casual riders to transition to Cyclistic membership:
 
-Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
-Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
-Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
+1. Seasonal Appeals: Develop campaigns focusing on peak riding seasons, showcasing membership convenience.
+2. Weekend Plans: Design weekend-specific membership options for casual riders' leisurely preferences.
+3. Enhanced App Features: Improve the app with route recommendations and attraction insights.
+4. Community Events: Organize gatherings to foster a sense of belonging and loyalty.
+5. Ride Rewards Program: Implement a loyalty program that rewards casual riders with points for each ride. Accumulated points can be redeemed for discounts on annual memberships, encouraging them to transition to regular ridership.
+6. Referral Bonuses: Incentivize existing members to refer casual riders to join as members. Offer referral bonuses or discounts to both the referrer and the new member upon successful conversion.
 
