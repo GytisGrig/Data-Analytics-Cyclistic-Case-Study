@@ -61,22 +61,22 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 ### Observations
 1. Checking data type and name of each column in the dataset
 
-![Column Names and Data Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/2ddc1578-0868-44fd-98a9-1edd79292267)
+![Column Names and Data Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/85e7f9f7-32cb-40fb-ad26-c7dfe39e8147)
    
 2. The table below shows total number of rows and number of null values in all columns
 
-![Number of NULLs](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/ab74e5c2-a8a4-428a-9e27-c57a618ea919)
+![Number of NULLs](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/5b399d2f-db3d-4539-b86b-908416b03e99)
 
 
 3. To further inspect my data I've used ride_id, since it had no NULL values. First check showed that there are no DUPLICATE rows in the dataset. Also, all ride_id values were same lenght, so there was nothing to clean.
 4. There are 3 unique types of bikes in our dataset.
 
-![Ride types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/06a5b844-ab68-46ed-bb36-6153c925898b)
+![Ride types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/22fa5282-0d70-430c-8756-29b4c56192ea)
 
 
 5. There are 2 unique subscription types in our dataset.
 
-![Subscription types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/8287170e-872e-4604-9dc8-46fb6da0bdc6)
+![Subscription types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/868c04c2-68a9-4779-b452-f796c1b4232c)
 
 6. Total of 868772 rows have both start_station_name and start_station_id as NULL values.
 7. Total of 925008 rows have both end_station_name and end_station_id as NULL values.
@@ -117,13 +117,13 @@ SQL Query: [Data Visualizations](https://public.tableau.com/app/profile/gytis.gr
 
 This visualization showcases the distribution of rideable types (bike types) among Cyclistic users. By categorizing the rides into member and casual riders, it offers an insightful perspective on the bike preferences of different user segments.
 
-![User And Bike Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/a986a07d-9e7b-4c69-a722-8fd92f09f74a)
+![User And Bike Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/4e966a3a-178a-4ded-a632-a9727689a2e9)
 
 The visualization highlights distribution in user rides, with 63% of rides completed by loyal members and 37% by casual riders. Classic and Electric bike types emerge as the favored choices, with Docked bikes only being used by casual riders.
 
 Following visualization presents trends of ride activity throughout the year. We can see how the number of trips varies across months, days of the week, and hours of the day, broken down by user type. This allows to pinpoint when the bike-share service experiences peak demand and when user engagement is higher for members versus casual riders.
 
-![Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/e5e11094-5814-431b-84b5-d8926d482982)
+![Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/c6855c36-5ab1-4ae3-8614-7d5f84327ab2)
 
 Analyzing **monthly** trip patterns reveals a trend in behavior between casual and member riders. Both groups complete higher trip counts during spring and summer, aligning with favorable weather conditions.
 
@@ -135,7 +135,7 @@ Members' ride patterns align with workweek commutes, evident from dual peaks dur
 
 To move further with analysis, this visualization complements the previous one by illustrating the average number of trips rather than raw counts. By focusing on averages, one can identify consistent patterns and trends.
 
-![Avg Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/7d0e9575-886a-42e9-a732-f2cc18429370)
+![Avg Trips per Month_Day_Hour](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/a9960523-24bd-4aac-bb2f-6bc147d3f3fb)
 
 **Monthly** data highlights that casual riders consistently have longer average journey durations compared to members. Casual riders journey length incereases during the summer months, while members maintain consistent average journey durations year-round.
 
@@ -147,13 +147,13 @@ These findings lead to the conclusion that Casual riders take longer trips on we
 
 To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. With this visualization, we gain insights into where both member and casual riders typically begin their trips. By showcasing the most popular start stations for each user type, decisions can be made towards tailored marketing efforts to promote membership at these stations or strategically expand stations based on demand.
 
-![User Start Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/0676ce60-ac35-4ff8-8f67-dbd0bd412e84)
+![User Start Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/92a24b10-712d-4667-88e3-4cd5da96f875)
 
 Casual Riders start trips in central, scenic locations like parks and coastlines, highlightin leisure activities. Member Riders start trips near train stations, universities, and residential areas, highlighting commuting and routine travel.
 
 Similar to the previous visualization, this one sheds light on the preferred end stations for Cyclistic users. It provides valuable information about the destinations of both member and casual riders, helping identify potential opportunities for location-specific campaigns.
 
-![User End Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/bd6eefff-6ff6-416a-9c7b-8f5210f90ca2)
+![User End Stations](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/bd8127a2-5060-4750-92d6-5a7f9f9aeb9d)
 
 Similar trends can be observed when looking at end stations. Casual riders tend to end their journeys near parks and coastlines, while member riders often end their trips near universities, residential areas, and train stations.
 
