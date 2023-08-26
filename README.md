@@ -79,8 +79,9 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 6. Total of 868772 rows have both start_station_name and start_station_id as NULL values.
 7. Total of 925008 rows have both end_station_name and end_station_id as NULL values.
 8. Total of 6102 rows have both end_lat and end_lng as NULL values.
-9. The started_at and ended_at timestamp structure shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format.
-10. New column ride_length was created to find the total trip duration. There are 157013 trips which has duration longer than a day OR trips that are less than a minute duration.
+9. No negative values displayed during check.
+10. The started_at and ended_at timestamp structure shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format.
+11. New column ride_length was created to find the total trip duration. There are 157013 trips which has duration longer than a day OR trips that are less than a minute duration.
 
 ## Data Cleaning
 
@@ -95,7 +96,18 @@ SQL Query: [Data Cleaning](https://github.com/GytisGrig/Data-Analytics-Cyclistic
 
 SQL Query: [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
 
+To analy
+
 # Share
 
 SQL Query: [Data Visualizations](LINK)
+
+# Act
+
+After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
+Recommendations:
+
+Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
+Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
+Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
 
