@@ -61,20 +61,22 @@ Before cleaning the data, I familiarize myself with the dataset and look for inc
 ### Observations
 1. Checking data type and name of each column in the dataset
 
-![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Column%20Names%20and%20Data%20Types.png)
+![Column Names and Data Types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/2ddc1578-0868-44fd-98a9-1edd79292267)
    
 2. The table below shows total number of rows and number of null values in all columns
 
-![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Number%20of%20NULLs.png)
+![Number of NULLs](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/ab74e5c2-a8a4-428a-9e27-c57a618ea919)
+
 
 3. To further inspect my data I've used ride_id, since it had no NULL values. First check showed that there are no DUPLICATE rows in the dataset. Also, all ride_id values were same lenght, so there was nothing to clean.
 4. There are 3 unique types of bikes in our dataset.
 
-![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Ride%20types.png)
+![Ride types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/06a5b844-ab68-46ed-bb36-6153c925898b)
+
 
 5. There are 2 unique subscription types in our dataset.
 
-![image](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Subscription%20types.png)
+![Subscription types](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/assets/142784659/8287170e-872e-4604-9dc8-46fb6da0bdc6)
 
 6. Total of 868772 rows have both start_station_name and start_station_id as NULL values.
 7. Total of 925008 rows have both end_station_name and end_station_id as NULL values.
