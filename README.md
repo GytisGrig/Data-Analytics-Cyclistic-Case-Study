@@ -11,7 +11,7 @@ SQL Queries:
 02. [Data Exploration](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Exploration.sql)
 03. [Data Cleaning](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
 04. [Data Analysis](https://github.com/GytisGrig/Data-Analytics-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
-05. Data Visualizations
+05. [Data Visualizations](https://public.tableau.com/app/profile/gytis.grigeliunas/viz/UserEngagement_16930401155740/UserAndBikeTypes#1)
 
 # Project Information
 ### About the Company
@@ -100,7 +100,7 @@ To analy
 
 # Share
 
-SQL Query: [Data Visualizations](LINK)
+SQL Query: [Data Visualizations](https://public.tableau.com/app/profile/gytis.grigeliunas/viz/UserEngagement_16930401155740/UserAndBikeTypes#1)
 
 # Act
 
